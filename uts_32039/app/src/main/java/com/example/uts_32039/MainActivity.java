@@ -71,10 +71,10 @@ public class MainActivity extends AppCompatActivity {
         if(requestCode == REQUEST_CODE){
             if (grantResults[0] == PackageManager.PERMISSION_GRANTED ){
                 Toast.makeText(this, "Granted!", Toast.LENGTH_SHORT);
+                fileMusiks = getAllAudio(this);
             }
             else{
                 ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, REQUEST_CODE);
-                fileMusiks = getAllAudio(this);
             }
         }
     }
