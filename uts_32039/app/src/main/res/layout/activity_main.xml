@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginPage"
+    tools:context=".MainActivity"
     android:background="#2e2e2e">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="35dp"
@@ -21,42 +22,29 @@
             android:textColor="#a6a6a6"/>
         <ImageView
             android:layout_marginTop="50dp"
-            android:layout_width="150dp"
+            android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:src="@drawable/logo"
-            android:layout_gravity="center"
-            />
-
-
-        <EditText
-            android:id="@+id/usernameLogin"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
-            android:padding="10dp"
-            android:text="Username"
-            android:textColor="#a6a6a6"
-            android:background="@drawable/rounded_form"/>
-
-        <EditText
-            android:id="@+id/passwordLogin"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_margin="25dp"
-            android:padding="10dp"
-            android:inputType="textPassword"
-            android:text="Password"
-            android:textColor="#a6a6a6"
-            android:background="@drawable/rounded_form"/>
+            android:src="@drawable/logo"/>
 
         <Button
-            android:id="@+id/loginBtn"
+            android:id="@+id/toProfile"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginRight="25dp"
             android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:text="Profile"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="#395c42"
+            android:background="@drawable/button_login" />
+        <Button
+            android:id="@+id/toLogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
             android:text="Login"
             android:textStyle="bold"
             android:textAllCaps="false"
@@ -70,8 +58,7 @@
             android:text="Copyright 2021 Muhammad Faisal Farhan"
             android:textAlignment="center"
             android:textColor="#a6a6a6"
-            android:layout_marginTop="25dp"/>
-
+            android:layout_marginTop="45dp"/>
 
     </LinearLayout>
 
