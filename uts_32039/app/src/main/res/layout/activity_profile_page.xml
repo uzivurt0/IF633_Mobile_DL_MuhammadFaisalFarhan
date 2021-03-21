@@ -34,7 +34,15 @@
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nama: 00000032039"
+            android:text="NIM: 00000032039"
+            android:textColor="#f4f4f4"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kelas : DL"
             android:textColor="#f4f4f4"
             android:textStyle="bold"
             android:textAlignment="center"/>
