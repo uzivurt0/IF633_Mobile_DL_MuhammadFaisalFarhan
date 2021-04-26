@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Week11_32039</string>
+    <string name="gagal">Gagal Melakukan Request !</string>
+    <string name="error">Error! Coba beberapa saat lagi</string>
+    <string name="berhasil">Fetch Data Berhasil !!</string>
+</resources>
